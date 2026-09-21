@@ -1,0 +1,19 @@
+.social-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: currentColor;
+	opacity: 0.4;
+	text-decoration: none;
+	transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.social-icon svg {
+	width: 24px;
+	height: 24px;
+	fill: currentColor;
+}
+
+.social-icon:hover {
+	opacity: 1;
+}
